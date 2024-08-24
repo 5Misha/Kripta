@@ -21,3 +21,11 @@ from lightgbm import LGBMRegressor
 from sklearn.metrics import mean_absolute_error  
 from sklearn.neighbors import KNeighborsRegressor  
 from sklearn.svm import SVR
+
+## Основные этапы работы
+* Загрузка и подготовка данных с сайта BINANCE
+* Исследовательский анализ
+* Проверка гипотез
+* Корреляционный анализ признаков
+* Создание моделей
+* Создание правил для входа и выхода
