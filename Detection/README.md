@@ -11,8 +11,8 @@
 
 
 Описание прикрепленных файлов:  
+* [info_model](https://github.com/5Misha/Personal_projects/tree/main/Detection/info_model/train) - автоматически созданная папка, полученная после обучения модели. В ней удалены картинки с тренировочными и валидационными данными кроме одной, чтобы можно было посмотреть на пример
 * [data_preparation](https://github.com/5Misha/Personal_projects/blob/main/Detection/data_preparation.py) - файл предобработки данных, в котором содержится много функций для чтения, создания файлов, их обработки, перевода в формат YAML, разбиение на tren, test, val и т.д.
 * [output](https://github.com/5Misha/Personal_projects/blob/main/Detection/output.py) - код для вывода изображений по одному для тестовой или валидационной выборки (можно выбрать)
 * [show_objects](https://github.com/5Misha/Personal_projects/blob/main/Detection/show_objects.py) - отображает изображения с размеченными боксами по заданному классу
 * [yolo_train](https://github.com/5Misha/Personal_projects/blob/main/Detection/yolo_train.py) - тут происходит дообучение модели, которая создает дополнительно файл "info_model"
-* [info_model](https://github.com/5Misha/Personal_projects/blob/main/Detection/info_model) - автоматически созданная папка, полученная после обучения модели.
